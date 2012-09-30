@@ -1,12 +1,57 @@
 <!doctype html>
 <html>
     <head>
-	    <meta charset=utf-8">
-    	<title>index</title>
+        <meta charset=utf-8">
+        <title>index</title>
+        <link rel="stylesheet" href="css/main.css">
     </head>
-
+    
     <body>
-    	No hago nada por el momento! :D
-		Mau probando...
+        <div id="div_body">
+            <header id="header_top">
+				<section id="sec_lenguajes">
+					<ul>
+						<li><a href="#"class="lenguajes_es"></a></li>
+						<li><a href="#" class="lenguajes_en"></a></li>
+					</ul>
+				</section>
+            </header>
+            
+            <nav id="nav_top">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Noticias</li>
+                    <li>Apps</li>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            
+            <div id="div_sec_principal">
+                <div id="slideshow">
+                    <ul class="slides">
+                        <li><img src="images/slide_noticia.jpg" width="620" height="320" alt="img1" /></li>
+                        <li><img src="images/2.jpg" width="620" height="320" alt="img2" /></li>
+                        <li><img src="images/3.jpg" width="620" height="320" alt="img3" /></li>
+                        <li><img src="images/4.jpg" width="620" height="320" alt="img4" /></li>
+                    </ul>
+                    
+                    <span class="flecha siguiente"></span>
+                    <span class="flecha anterior"></span>
+                </div>
+                
+                <div id="div_sec_principal_bottom">  
+                    <video src="#" width="320" heigth="320" loop controls></video>
+                </div>
+            </div>
+            
+            <footer id="footer_bottom">
+               Programa GoTouch del Tecnologico de Costa Rica 2012
+            </footer>
+        </div>    
+        
+        <!-- Se inicia el slider-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="js/script_slider.js"></script>
     </body>
 </html>
