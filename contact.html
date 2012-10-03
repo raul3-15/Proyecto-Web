@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8">
+        <title>index</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body>
+        <div id="div_body">
+            <header id="header_top">
+				<section id="sec_lenguajes">
+					<ul>
+						<li><a href="#"class="lenguajes_es"></a></li>
+						<li><a href="#" class="lenguajes_en"></a></li>
+					</ul>
+				</section>
+            </header>
+            
+            <nav id="nav_top">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Noticias</li>
+                    <li>Apps</li>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            
+            <div id="div_sec_principal">
+                <form action="#" method="post">
+                    <ul id="contactform">
+                        <li>
+                            <label for="name">Nombre*</label>
+                            <span class="fieldbox"><input type="text" name="name" id="name" value=""/></span>
+                        </li>	
+                        <li>
+                            <label for="email">Email*</label>
+                            <span class="fieldbox"><input type="text" name="email" id="email" value=""/></span>
+                        </li>
+                        <li>
+                            <label for="msg">Mensaje</label>
+                            <span class="msgbox"><textarea class="area" id="msg" name="msg" rows="8" cols="30"></textarea></span>
+                        </li>
+                    </ul>
+                    
+                    <p>required field*</p>
+                    <input type="submit" value="Enviar" id="sendbutton" name="sendbutton"/>
+                </form>
+            </div>
+            
+            <footer id="footer_bottom">
+               Programa GoTouch del Tecnologico de Costa Rica 2012
+            </footer>
+        </div>    
+        
+        <!-- Se inicia el slider-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="js/script_slider.js"></script>
+    </body>
+</html>
