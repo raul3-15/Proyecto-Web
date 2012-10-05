@@ -86,6 +86,7 @@ body{
 }
 
 #div_sec_principal_bottom{
+	margin:30px;
 	display: -webkit-box;
 	-webkit-box-orient:horizontal;	
 }
@@ -110,10 +111,27 @@ body{
 	text-align:center;
 	padding: 20px;
 	border-top: 2px solid #eee;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;	
 }
 
-/* Estilo del slidershow*/
+#div_politicas{
+}
 
+#div_contactos{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+#div_contactos img{
+	margin-left:20px;
+}
+
+#link_Admin{
+	float:right;	
+}
+
+/* Estilo del slideshow de inicio*/
 #slideshow{
 	background-color:#F5F5F5;
 	border:1px solid #FFFFFF;
@@ -174,6 +192,34 @@ body{
 
 #slideshow .siguiente{ background-position:right top;right:0;}
 #slideshow .siguiente:hover{ background-position:right bottom;}
+
+/*Estilo del slideshow de apps*/
+#slideshow_apps{
+	background-color:transparent;
+	height:115px;
+	/*position:relative;*/
+	width:480px;
+	margin-top:50px;
+	margin-right:100px;
+	
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+}
+
+#slideshow_apps ul{
+	height:105px;
+	left:10px;
+	list-style:none;/* outside none;*/
+	/*overflow:hidden;*/
+	width:475px;
+}
+
+
+#slideshow_apps li{
+	margin:5px;
+	display:inline-block;
+}
 
 
 /* Estilo Form de Contacto*/
