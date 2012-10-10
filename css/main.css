@@ -115,20 +115,45 @@ body{
 	-webkit-box-orient:vertical;	
 }
 
-#div_politicas{
-}
-
 #div_contactos{
 	display: -webkit-box;
 	-webkit-box-orient:horizontal;
 }
 
 #div_contactos img{
-	margin-left:20px;
+	margin-left:30px;
+	text-decoration:none;	
 }
 
-#link_Admin{
-	float:right;	
+
+#div_contactos a{
+	margin-left:30px;
+	text-decoration:none;	
+}
+
+#div_contactos a:visited{
+	color:#eee;	
+}
+
+#div_contactos img:first-child{
+	margin-left:-20px;	
+}
+
+.horizontal a:visited{
+	color:#eee;	
+}
+
+#span_separador{
+	padding-right:350px;	
+}
+
+.horizontal{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+.horizontal a:first-child{
+	margin-left:-170px;	
 }
 
 /* Estilo del slideshow de inicio*/
