@@ -1,12 +1,14 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset=utf-8">
-        <title>index</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    
-    <body>
+<head>
+  <meta charset="utf-8">
+  <title>Apps | GoTouch</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="css/apps.css" rel="stylesheet" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="js/appsInit.js"></script>
+</head>
+	<body>
         <div id="div_body">
             <header id="header_top">
 				<section id="sec_lenguajes">
@@ -21,32 +23,32 @@
                 <ul>
                     <li><a href="index.html">Inicio </a></li>
                     <li><a href="news.html">Noticias</a></li>
-                    <li><a href="#">Apps</a></li>
+                    <li><a href="apps.html">Apps</a></li>
                     <li><a href="#">Sobre Nosotros</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </nav>
             
             <div id="div_sec_principal">
-                <form action="#" method="post">
-                    <ul id="contactform">
-                        <li>
-                            <label for="name">Nombre*</label>
-                            <span class="fieldbox"><input type="text" name="name" id="name" value=""/></span>
-                        </li>	
-                        <li>
-                            <label for="email">Email*</label>
-                            <span class="fieldbox"><input type="text" name="email" id="email" value=""/></span>
-                        </li>
-                        <li>
-                            <label for="msg">Mensaje</label>
-                            <span class="msgbox"><textarea class="area" id="msg" name="msg" rows="8" cols="30"></textarea></span>
-                        </li>
+                
+                <div id="div_galeria_apps">AQUI VA EL SLIDER CON LA GALERIA DE APPS</div>
+                
+                
+                
+                <div id="div_slider_app">
+                    <ul class="slides">
+                        <li><img src="images/musician1.png"/></li>
+                        <li><img src="images/musician2.jpg"/></li>
                     </ul>
                     
-                    <p>required field*</p>
-                    <input type="submit" value="Enviar" id="sendbutton" name="sendbutton"/>
-                </form>
+                    <span class="flecha siguiente"></span>
+                    <span class="flecha anterior"></span>
+                </div>
+                
+                <div id="div_info_app">
+                  <h1>Musician</h1>
+                </div>
+                
             </div>
             
             <footer id="footer_bottom">
@@ -59,18 +61,15 @@
                 <br />
                 
                 <div class='horizontal' >
-                	<a href="#">Pol&iacuteticas y Privacidad</a> 
+                	<a href="#">Políticas y Privacidad</a> 
 					<span id='span_separador'> </span>
-                	<label>Programa GoTouch del Tecnol&oacutegico de Costa Rica 2012</label>
+                	<label>Programa GoTouch del Tecnológico de Costa Rica 2012</label>
                 	<span id='span_separador'> </span>
                 	<a href="#" id="link_Admin">Admin<img src="images/settings.png"/></a>
                     
                 </div>
             </footer>
-        </div>    
+        </div> 
         
-        <!-- Se inicia el slider-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script src="js/script_slider.js"></script>
     </body>
 </html>

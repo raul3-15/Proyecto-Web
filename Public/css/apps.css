@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+#div_galeria_apps {
+	background-color: #606;
+	height: 100px;
+	width: 800px;
+	margin:0 auto 0 auto;
+}
+
+/* =======================================/*
+/* Estilo del slider_app de inicio*/
+#div_slider_app {
+	background-color:#F5F5F5;
+	border:1px solid #FFFFFF;
+	height:340px;
+	width:540px;
+	margin:50px 0 0 0;
+	position:relative;
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+	float: left;
+}
+
+#div_slider_app ul{
+	height:320px;
+	left:10px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	width:620px;
+}
+
+#div_slider_app li{
+	position:absolute;
+	display:none;
+	z-index:10;
+}
+
+#div_slider_app li:first-child{
+	display:block;
+	z-index:1000;
+}
+
+#div_slider_app .slideActive{
+	z-index:1000;
+}
+
+#div_slider_app canvas{
+	display:none;
+	position:absolute;
+	z-index:100;
+}
+
+#div_slider_app .flecha{
+	height:86px;
+	width:60px;
+	position:absolute;
+	background:url('../images/arrows.png') no-repeat;
+	top:50%;
+	margin-top:-43px;
+	cursor:pointer;
+	z-index:5000;
+}
+
+#div_slider_app .anterior {
+	background-position:left top;
+	left:0;
+}
+
+#div_slider_app .anterior:hover {
+	background-position:left bottom;
+}
+
+#div_slider_app .siguiente {
+	background-position:right top;
+	right:0;
+}
+#div_slider_app .siguiente:hover {
+	background-position:right bottom;
+}
+/* ===============================================*/
+
+#div_info_app {
+	/*background-color:#690;
+	height:700px;
+	width:200px;*/
+}
