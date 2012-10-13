@@ -1,14 +1,63 @@
 @charset "utf-8";
 
+#div_sec_principal {
+	margin-top: 35px;
+}
+
 #div_galeria_apps {
-	background-color: #606;
+	background-color: #CFC;
 	height: 100px;
 	width: 800px;
 	margin:0 auto 0 auto;
+	color:#000;
 }
 
-/* =======================================/*
-/* Estilo del slider_app de inicio*/
+#div_slider_app {
+	clear: both;
+	float: left;
+	height: 340px;
+	width: 540px;
+	background-color:#CFC;
+	margin:50px;
+	color: #000;
+}
+
+#div_info_app {
+	margin:50px;
+	text-align: center;
+}
+
+#div_info_app #img_logo_app {
+	margin-top: 30px;
+}
+
+#div_info_app #img_available_on {
+	margin-top: 70px;
+}
+
+#div_descripcion_app {
+	clear: both;
+	width: 70%;
+	margin: 0 auto 0 auto;
+}
+
+#div_sec_comentarios {
+	margin-top: 50px;
+	width: 40%;
+}
+
+#div_sec_comentarios p {
+	margin: 20px 0 20px 0;
+	color: #F00;
+}
+
+#div_sec_comentarios #sendbutton {
+	width: 70px;
+	height: 30px;
+}
+
+/* =======================================
+/* Estilo del slider_app de inicio*/ /*
 #div_slider_app {
 	background-color:#F5F5F5;
 	border:1px solid #FFFFFF;
@@ -79,11 +128,7 @@
 }
 #div_slider_app .siguiente:hover {
 	background-position:right bottom;
-}
+}*/
 /* ===============================================*/
 
-#div_info_app {
-	/*background-color:#690;
-	height:700px;
-	width:200px;*/
-}
+

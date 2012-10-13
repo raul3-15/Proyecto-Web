@@ -1,8 +1,10 @@
-$(window).load(function(){
+
+
+function onLoad(){
 	
-	crearSliderApp();
+	//crearSliderApp();
 	
-});
+};
 
 
 /* ======================================================================================

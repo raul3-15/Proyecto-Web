@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Apps | GoTouch</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link href="css/apps.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/css_general.css">
+  <link rel="stylesheet" href="css/css_apps.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script src="js/appsInit.js"></script>
+
 </head>
-	<body>
+	<body onLoad="onLoad();">
         <div id="div_body">
             <header id="header_top">
 				<section id="sec_lenguajes">
@@ -31,11 +32,11 @@
             
             <div id="div_sec_principal">
                 
-                <div id="div_galeria_apps">AQUI VA EL SLIDER CON LA GALERIA DE APPS</div>
+                <div id="div_galeria_apps"> AQUI VA EL SLIDER CON LA GALERIA DE APPS </div>
                 
+                <div id="div_slider_app"> AQUI VA EL SLIDER CON FOTOS Y VIDEOS
                 
-                
-                <div id="div_slider_app">
+                <!--
                     <ul class="slides">
                         <li><img src="images/musician1.png"/></li>
                         <li><img src="images/musician2.jpg"/></li>
@@ -43,12 +44,34 @@
                     
                     <span class="flecha siguiente"></span>
                     <span class="flecha anterior"></span>
+                -->
+                    
                 </div>
                 
                 <div id="div_info_app">
                   <h1>Musician</h1>
+                  <img src="images/musician3.png" id="img_logo_app"/>
+                  <a href="#"><img id="img_available_on" src="images/app_store.png"/><a>
                 </div>
                 
+                <div id="div_descripcion_app">
+                  <p> In tincidunt vehicula est vel facilisis. Aliquam tempor neque id purus ultrices mollis. Ut et turpis magna, quis adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ante lorem, egestas vel mollis feugiat, dapibus nec sem. Maecenas congue ultricies diam, et elementum ipsum vulputate vitae. Vestibulum vestibulum pulvinar dolor, ac pellentesque ligula ornare vel. Fusce vel dui tortor, eleifend adipiscing magna. Ut adipiscing congue nunc nec laoreet. Aenean nisi tortor, pulvinar ut eleifend non, semper vel est. Quisque et dui ut massa lacinia placerat non a sapien.</p>
+                </div>                  
+                
+            </div>
+            
+            <div id="div_sec_comentarios">
+              <h1>Comentarios</h1>
+              <form id="form_comentarios" action="#" method="post">
+                <label for="name">Nombre Completo*</label>
+                <input type="text" name="name" id="name" value="" size="30"/>
+                <label for="email">Correo Electronico*</label>
+                <input type="text" name="email" id="email" value="" size="30"/>
+                <label for="msg">Comentario*</label>
+                <textarea class="area" id="msg" name="msg" rows="5" cols="30"></textarea>         
+                <p>Required field*</p>
+                <input type="submit" value="Enviar" id="sendbutton" name="sendbutton"/>
+              </form>
             </div>
             
             <footer id="footer_bottom">

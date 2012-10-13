@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Establece un default para cualquier componente que se utilice */
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+
+header, section, footer, nav{
+	display:block;
+}
+
+body{
+	color:#eee;
+	background:url('../images/bg.jpg') repeat-x #0c0d10;
+	font:13px "Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+
+a{
+	color:#eee;
+}
+
+a:visited{
+	color:#eee;
+}
+
+#div_body{
+	max-width: 1000px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	width: 500px;
+}
+
+#header_top{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	padding: 40px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+}
+
+#sec_lenguajes {
+	height:25px;
+	position:absolute;
+	top:5px;
+	right:175px;
+}
+#sec_lenguajes li {
+	display:inline-block;
+	list-style:none;
+}
+#sec_lenguajes li a {
+	text-decoration:none;
+	width:25px;
+	height:25px;
+	display:block;
+	margin-left:2px;
+}
+#sec_lenguajes li .lenguajes_es {
+	background-image: url(../images/cr.png);		
+}
+#sec_lenguajes li .lenguajes_en {
+	background-image: url(../images/usa.png);		
+}
+
+#nav_top{
+	border-bottom: 2px solid #eee;
+}
+
+#nav_top li{
+	display:inline-block;
+	list-style:none;
+	padding: 5px;
+}
+
+#nav_top li a {
+	color:#EEE;
+	text-decoration: none;
+}
+
+#nav_top li:hover{
+	background: -webkit-linear-gradient(top, black,white);
+	-webkit-border-radius:0px 0px 0px 0px;
+}
+
+#footer_bottom{
+	color:#aaa;
+	text-align:center;
+	margin-top: 50px;
+	padding: 20px;
+	border-top: 2px solid #eee;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;	
+}
+
+#div_contactos{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+#div_contactos img{
+	margin-left:30px;
+	text-decoration:none;	
+}
+
+
+#div_contactos a{
+	margin-left:30px;
+	text-decoration:none;	
+}
+
+#div_contactos a:visited{
+	color:#eee;	
+}
+
+#div_contactos img:first-child{
+	margin-left:-20px;	
+}
+
+.horizontal a{
+	color:#eee;	
+}
+
+.horizontal a:visited{
+	color:#eee;	
+}
+
+#span_separador{
+	padding-right:350px;	
+}
+
+.horizontal{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+.horizontal a:first-child{
+	margin-left:-170px;	
+}
+
+label {
+	display:block; 
+	padding-bottom:5px; 
+	margin-top:20px;
+}
