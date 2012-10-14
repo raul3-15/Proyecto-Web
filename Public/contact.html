@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset=utf-8">
-        <title>index</title>
+        <title>Contacto | GoTouch</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/css_contacto.css">
     </head>
@@ -20,67 +20,54 @@
             
             <nav id="nav_top">
                 <ul>
-                    <li>Inicio</li>
-                    <li>Noticias</li>
-                    <li>Apps</li>
-                    <li>Sobre Nosotros</li>
-                    <li>Contacto</li>
+                    <li><a href="index.html">Inicio </a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="apps.html">Apps</a></li>
+                    <li><a href="aboutus.html">Sobre Nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </nav>
             
             <div id="div_sec_principal">
-            
-				 <div id="div_contactosizquierda"> 
-                	<img src="images/phone.png"><label id="label_telefono">8896-4751</label>						
-                	<img src="images/mail.png"><label id="label_mail">gotouch@mail.com</label> 
-                	<img src="images/facebook.png"><label id="label_facebook">/gotouch.tec</label> 
+                <div id="div_form">
+                    <form action="#" method="post">
+                        <ul id="contactform">
+                            <li>
+                                <label for="name">Nombre Completo*</label>
+                                <span class="fieldbox"><input type="text" name="name" id="name" value=""/></span>
+                            </li>	
+                            <li>
+                                <label for="email">Correo Electronico*</label>
+                                <span class="fieldbox"><input type="text" name="email" id="email" value=""/></span>
+                            </li>
+                            <li>
+                                <label for="msg">Comentario</label>
+                                <span class="msgbox"><textarea class="area" id="msg" name="msg" rows="8" cols="30"></textarea></span>
+                            </li>
+                        </ul>
+                        
+                        <input type="submit" value="Enviar" id="sendbutton" name="sendbutton"/>
+                    </form>
                 </div>
-                
-                <div id="div_contactos">
-                <form action="#" method="post">
-                    <ul id="contactform">
-                        <li>
-                            <label for="name">Nombre Completo*</label>
-                            <span class="fieldbox"><input type="text" name="name" id="name" value=""/></span>
-                        </li>	
-                        <li>
-                            <label for="email">Correo Electronico*</label>
-                            <span class="fieldbox"><input type="text" name="email" id="email" value=""/></span>
-                        </li>
-                        <li>
-                            <label for="msg">Comentario</label>
-                            <span class="msgbox"><textarea class="area" id="msg" name="msg" rows="8" cols="30"></textarea></span>
-                        </li>
-                    </ul>
-                    
-                    <p>required field*</p>
-                    <input type="submit" value="Enviar" id="sendbutton" name="sendbutton"/>
-                </form>
-                </div>
-				
             </div>
 			
-			
-			<div id="div_borra">
-            </div>
-			
-            
             <footer id="footer_bottom">
-                <div id="div_contactos"> 
-                	<img src="images/phone.png"/>8896-4751
-                	<img src="images/mail.png"/><label id="label_mail">gotouch@mail.com</label> 
-                	<img src="images/facebook.png"/><label id="label_facebook">/gotouch.tec</label> 
+                <div id="div_contactos" > 
+                	<img src="images/phone.png"/><label id="label_telefono">8896-4751</label> 
+                	<a href="#"><img src="images/mail.png"/>gotouch@mail.com</a> 
+                	<a href="#"><img src="images/facebook.png"/>/gotouch.tec</a>
                 </div>
-                <div id="div_politicas"><a href="#">Politicas y Privacidad</a></div>
-                </br>
-                <label>Programa GoTouch del Tecnologico de Costa Rica 2012</label>
-                <a href="#" id="link_Admin">Admin</a>
+                <br />
+                <br />
+                
+                <div class='horizontal' >
+                	<a href="#">Pol&iacuteticas y Privacidad</a> 
+					<span id='span_separador'> </span>
+                	<label>Programa GoTouch del Tecnol&oacutegico de Costa Rica 2012</label>
+                	<span id='span_separador'> </span>
+                	<a href="#" id="link_Admin">Admin<img src="images/settings.png"/></a>
+                </div>
             </footer>
         </div>    
-        
-        <!-- Se inicia el slider-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script src="js/script_slider.js"></script>
-
     </body>
 </html>

@@ -1,15 +1,13 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Apps | GoTouch</title>
-  <link rel="stylesheet" href="css/css_general.css">
-  <link rel="stylesheet" href="css/css_apps.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script src="js/appsInit.js"></script>
-
-</head>
-	<body onLoad="onLoad();">
+    <head>
+      <meta charset="utf-8">
+      <title>Apps | GoTouch</title>
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/css_apps.css">
+    </head>
+    
+	<body>
         <div id="div_body">
             <header id="header_top">
 				<section id="sec_lenguajes">
@@ -25,27 +23,34 @@
                     <li><a href="index.html">Inicio </a></li>
                     <li><a href="news.html">Noticias</a></li>
                     <li><a href="apps.html">Apps</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="aboutus.html">Sobre Nosotros</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </nav>
             
             <div id="div_sec_principal">
                 
-                <div id="div_galeria_apps"> AQUI VA EL SLIDER CON LA GALERIA DE APPS </div>
+                <div id="div_galeria_apps">
+                	<div id="slideshow_apps">
+                    	 <ul class="slides_apps">
+                            <li><a href="#"><img src="images/app1.png" width="105" height="105" alt="img1" /> </a></li>
+                            <li><a href="#"><img src="images/app2.png" width="105" height="105" alt="img2" /> </a></li>
+                            <li><a href="#"><img src="images/app3.png" width="105" height="105" alt="img3" /> </a></li>
+                            <li><a href="#"><img src="images/app4.png" width="105" height="105" alt="img4" /> </a></li>
+                    	</ul>
+                    </div>
+                </div>
                 
-                <div id="div_slider_app"> AQUI VA EL SLIDER CON FOTOS Y VIDEOS
-                
-                <!--
-                    <ul class="slides">
-                        <li><img src="images/musician1.png"/></li>
-                        <li><img src="images/musician2.jpg"/></li>
-                    </ul>
-                    
-                    <span class="flecha siguiente"></span>
-                    <span class="flecha anterior"></span>
-                -->
-                    
+                <div id="div_slider_app">
+                	<div id="slideshow">
+                        <ul class="slides">
+                            <li><img src="images/musician1.png" width="520" height="320"/></li>
+                            <li><img src="images/musician2.jpg" width="520" height="320"/></li>
+                        </ul>
+                        
+                        <span class="flecha siguiente"></span>
+                        <span class="flecha anterior"></span>
+                    </div>
                 </div>
                 
                 <div id="div_info_app">
@@ -94,5 +99,8 @@
             </footer>
         </div> 
         
+        <!-- Se inicia el slider-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="js/script_slider.js"></script>
     </body>
 </html>

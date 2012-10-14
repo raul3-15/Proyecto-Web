@@ -1,64 +1,13 @@
 @charset "utf-8";
 
-label {
-	display:block; 
-	padding-bottom:5px; 
-	margin-top:20px;
-}
-
-#div_sec_principal {
-	margin-top: 35px;
-}
-
-#div_galeria_apps {
-	margin-left:250px;
-}
-
-#div_info_app {
-	margin:50px;
-	text-align: center;
-}
-
-#div_info_app #img_logo_app {
-	margin-top: 30px;
-}
-
-#div_info_app #img_available_on {
-	margin-top: 70px;
-}
-
-#div_descripcion_app {
-	clear: both;
-	width: 70%;
-	margin: 0 auto 0 auto;
-}
-
-#div_sec_comentarios {
-	margin-top: 50px;
-	width: 40%;
-}
-
-#div_sec_comentarios p {
-	margin: 20px 0 20px 0;
-	color: #F00;
-}
-
-#div_sec_comentarios #sendbutton {
-	width: 70px;
-	height: 30px;
-}
-
 /* Estilo del slideshow de inicio*/
-#div_slider_app{
-	margin:30px;
-}
-
 #slideshow{
 	background-color:#F5F5F5;
 	border:1px solid #FFFFFF;
-	height:320px;
+	height:340px;
+	margin:50px auto 0;
 	position:relative;
-	width:520px;
+	width:640px;
 	
 	-moz-box-shadow:0 0 22px #111;
 	-webkit-box-shadow:0 0 22px #111;
@@ -67,9 +16,12 @@ label {
 
 #slideshow ul{
 	height:320px;
+	left:10px;
 	list-style:none outside none;
 	overflow:hidden;
-	width:520px;
+	position:absolute;
+	top:10px;
+	width:620px;
 }
 
 #slideshow li{
@@ -110,17 +62,13 @@ label {
 #slideshow .siguiente{ background-position:right top;right:0;}
 #slideshow .siguiente:hover{ background-position:right bottom;}
 
-
-
-
-/* Estilo slide de apps*/
+/*Estilo del slideshow de apps*/
 #slideshow_apps{
 	background-color:transparent;
 	height:115px;
 	width:480px;
 	margin-top:50px;
 	margin-right:100px;
-	
 	
 	-moz-box-shadow:0 0 22px #111;
 	-webkit-box-shadow:0 0 22px #111;
@@ -133,6 +81,7 @@ label {
 	list-style:none;
 	width:475px;
 }
+
 
 #slideshow_apps li{
 	margin:5px;

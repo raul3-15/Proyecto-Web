@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Estilo seccion de articulo */
+#sec_articulo{
+	display:inline-block;
+}
+
+#parrafo_derecho{
+	display:inline;
+	text-align:left;
+	margin-left:20px;
+}
+
+
+#sec_articulo a{
+	display:block;	
+}
+
+#sec_articulo img{
+	background-color:#F5F5F5;
+	border:1px solid #FFFFFF;
+	-moz-box-shadow:0 0 22px #CCC;
+	-webkit-box-shadow:0 0 22px #CCC;
+	box-shadow:0 0 22px #CCC;
+	margin:10px;
+	height:200px;
+	width:320px;	
+}
+
+.izquierda{
+	float:left;
+	margin-right:30px;
+}
+
+h1{
+	margin-bottom:10px;	
+}

@@ -1,82 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
 
-#div_izquierda{
-	position:absolute;
+h1{
+	margin_top:10px;
+	margin-bottom:10px;
+}
+
+.img_borde{
+	background-color:#F5F5F5;
+	border:1px solid #FFFFFF;
+	-moz-box-shadow:0 0 22px #CCC;
+	-webkit-box-shadow:0 0 22px #CCC;
+	box-shadow:0 0 22px #CCC;
+	max-height:200px;
+	max-width:200px;
+}
+
+.sec_principal p{
+	width:1000px;
+	text-align:justify;	
+}
+
+.sec_principal div{
+	margin-top:10px;	
+}
+
+.izquierda{
 	float:left;
-	
-	}
-	
-#div_derecha{
-	position:absolute;
+	margin-right:30px;
+}
+
+.derecha{
 	float:right;
-	margin-left:20%;
-	}
-	
-#div_derechaescuela{
-	position:absolute;
-	float:right;
-	margin-left:890px;
-	width: 193px;
-	}
-	
-	#div_escuelaizquierda{
-	position:absolute;
-	float:left;
-	width: 897px;
-	padding-top: 0px;
-	
-	}
-	
-	
-#div_escuela{
-	width:1000px;
-	padding:180px;
-	margin-left:-18%;
-	}
-	
-#div_CIC{
-	width:1000px;
-	padding:50px;
-	margin-left:-5%;
-	}
-	
-#div_iniciativa{
-	width:1000px;
-	padding:50px;
-	margin-left:-5%;
-	}
-	
-#div_equipo{
-	width:1000px;
-	padding:100px;
-	margin-left:-10%;
-	}
-	
-	
-#miembrosequipos{
-	width: 400px;
-	padding:100px;
-	margin-left:-10%;
-	}
-#imagenmiembro{
-	width:64px;
-	position:absolute;
-	float:left;
-	padding-top: 0px;
-	}
-	
-#informacionmiembro{
-	width:250px;
-	position:absolute;
-	float:rigth;
-	padding: -20px;
-	margin-left:70px;
-	
-	}
-	
-#div_borra{
-	clear:both;
-	padding:200px;
-	}
-	
+	margin-left:30px;
+}
+
+#div_miembros{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}

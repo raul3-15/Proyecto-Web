@@ -1,24 +1,91 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*Estilo página contactos*/
-
-
-
-#div_contactosizquierda
-{
-	position: absolute;
-	float:left;
-	margin-left:50%;
+/* Estilo Form de Contacto*/
+*{
+	border:none; 
 }
 
-#div_contactos{
-	position: absolute;
-	float:left
-	
-	}
-#div_borra	{
-	padding:200px;
-	clear:both;
+h1 {
+	font-size:20px;
+	margin-bottom:20px; 
+}
 
+#wrap {
+	margin:10px auto;
+	width:900px; 
+}
+
+p {
+	margin:15px 0;
+}
+
+#header {
+	margin-bottom:20px;
+}
+
+label {
+	display:block; 
+	padding-bottom:5px; 
+	margin-top:20px;
+}
+
+#contactform {
+	width:900px; 
+	overflow:hidden;
+}
+
+#contactform li {
+	list-style:none; 
+	padding-bottom:20px;
+}
+
+#contactform li .fieldbox {
+	background:transparent url(../images/subfield.png) no-repeat top left; 
+	float:left; 
+	height:27px; 
+	padding-left:5px;
+}
+
+#contactform li .fieldbox input {
+	background:transparent url(../images/subfield.png) no-repeat top right; 
+	height:27px; 
+	padding-top:5px;
+	width:400px;
+}
+
+#contactform li .fieldbox input:focus {
+	outline: none;
+}
+
+#contactform li .fieldbox #contact {
+	width:200px;
+}
+
+#contactform li .msgbox {
+	background:transparent url(../images/msgfield.png) no-repeat top left;
+	float:left; 
+	height:110px; 
+	padding-left:5px;
+}
+
+#contactform li .msgbox textarea {
+	background:transparent url(../images/msgfield.png) no-repeat top right;
+	height:110px;
+	padding-top:5px;
+	width:500px;	 
+}
+
+#contactform li .msgbox textarea:focus {
+	outline: none;
+}
+
+#sendbutton {
+	margin-top:20px;
+	background:#acb4cb; 
+	color:#fff; 
+	cursor:pointer;
+	padding:5px 10px; 
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px
 }
