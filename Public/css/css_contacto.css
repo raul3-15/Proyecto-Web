@@ -33,6 +33,7 @@ label {
 #contactform {
 	width:900px; 
 	overflow:hidden;
+	height:333px;
 }
 
 #contactform li {
@@ -41,17 +42,22 @@ label {
 }
 
 #contactform li .fieldbox {
-	background:transparent url(../images/subfield.png) no-repeat top left; 
+/*	background:transparent url(../images/subfield.png) no-repeat top left; */
+	
 	float:left; 
-	height:27px; 
+	height:30px; 
 	padding-left:5px;
 }
 
 #contactform li .fieldbox input {
-	background:transparent url(../images/subfield.png) no-repeat top right; 
-	height:27px; 
+/*	background:transparent url(../images/subfield.png) no-repeat top right; */
+ 	background:url(../images/imagen_contacto.JPG);
+	height:30px; 
 	padding-top:5px;
 	width:400px;
+	color:#fff; 
+	font-family:"MS Serif", "New York", serif;
+	font-size:15px;
 }
 
 #contactform li .fieldbox input:focus {
@@ -63,17 +69,21 @@ label {
 }
 
 #contactform li .msgbox {
-	background:transparent url(../images/msgfield.png) no-repeat top left;
+/*	background:transparent url(../images/msgfield.png) no-repeat top left;*/
 	float:left; 
 	height:110px; 
 	padding-left:5px;
 }
 
 #contactform li .msgbox textarea {
-	background:transparent url(../images/msgfield.png) no-repeat top right;
-	height:110px;
+/*	background:transparent url(../images/msgfield.png) no-repeat top right;*/
+	background: url(../images/imagen_contacto.JPG);
+	height:250px;
 	padding-top:5px;
-	width:500px;	 
+	width:490px;	
+	color:#fff; 
+	font-family:"MS Serif", "New York", serif;
+	font-size:15px;
 }
 
 #contactform li .msgbox textarea:focus {
@@ -81,11 +91,35 @@ label {
 }
 
 #sendbutton {
-	margin-top:20px;
-	background:#acb4cb; 
+	margin-top:-30px;
+	background:#393; 
 	color:#fff; 
 	cursor:pointer;
 	padding:5px 10px; 
 	-moz-border-radius:4px;
-	-webkit-border-radius:4px
+	-webkit-border-radius:4px;
+	float:right;
+	margin-left:100;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
 }
+
+#div_form{
+	width: 1000px;
+	}
+	
+#formulario_nombre{
+	float:left;
+	margin-right:30px;	
+	width: 533px;
+	height:333px;
+	}
+	
+#formulario_mensaje{
+	float:right;
+	margin-left:30px;
+	width: 500px;
+	margin-top: -333px;
+	height:333px;
+	}
+

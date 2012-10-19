@@ -30,24 +30,30 @@
             
             <div id="div_sec_principal">
                 <div id="div_form">
-                    <form action="#" method="post">
+                    <form id="formulario_nombre" action="#" method="post">
                         <ul id="contactform">
                             <li>
-                                <label for="name">Nombre Completo*</label>
-                                <span class="fieldbox"><input type="text" name="name" id="name" value=""/></span>
+                                <label></label>
+                                <span class="fieldbox"><input type="text" name="name" id="name" value=" nombre"/></span>
                             </li>	
                             <li>
-                                <label for="email">Correo Electronico*</label>
-                                <span class="fieldbox"><input type="text" name="email" id="email" value=""/></span>
+                                <label></label>
+                                </br>
+                                <span class="fieldbox"><input type="text" name="email" id="email" value=" correo electronico"/></span>
                             </li>
+                         </ul>
+                     </form>
+                     <form id="formulario_mensaje" action="#" method="post">
+                     	<ul id="contactform">
                             <li>
-                                <label for="msg">Comentario</label>
-                                <span class="msgbox"><textarea class="area" id="msg" name="msg" rows="8" cols="30"></textarea></span>
+                                <label></label>
+                                <span class="msgbox"><textarea class="area" id="msg" name="msg" rows="8" cols="30"> mensaje</textarea>		 			                    </span>
                             </li>
-                        </ul>
                         
-                        <input type="submit" value="Enviar" id="sendbutton" name="sendbutton"/>
+                        </ul>
+                        <input type="submit" value="enviar" id="sendbutton" name="sendbutton"/>
                     </form>
+                    
                 </div>
             </div>
 			
