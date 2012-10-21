@@ -2,32 +2,35 @@
 
 /* Estilo del slideshow de inicio*/
 #slideshow{
-	background-color:#F5F5F5;
-	border:1px solid #FFFFFF;
-	height:340px;
+	background-color:#414141;
+	height:374px;
 	margin:50px auto 0;
 	position:relative;
-	width:640px;
-	
-	-moz-box-shadow:0 0 22px #111;
-	-webkit-box-shadow:0 0 22px #111;
-	box-shadow:0 0 22px #111;
+	width:920px;
 }
 
 #slideshow ul{
-	height:320px;
+	height:350px;
 	left:10px;
 	list-style:none outside none;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	position:absolute;
 	top:10px;
-	width:620px;
+	width:780px;
 }
 
 #slideshow li{
 	position:absolute;
-	display:none;
+	/*display:none;*/
 	z-index:10;
+	/*border:1px solid #414141;*/
+}
+
+#slideshow li img{
+	width:790px;	
+	height:350px;
+	max-width:790px;
+	max-height:350px;
 }
 
 #slideshow li:first-child{
@@ -46,12 +49,13 @@
 }
 
 #slideshow .flecha{
-	height:86px;
-	width:60px;
+	height:32px;
+	width:22px;
 	position:absolute;
-	background:url('../images/arrows.png') no-repeat;
+	background:url('../images/flechas.png') no-repeat;
 	top:50%;
-	margin-top:-43px;
+	margin-left:-35px;
+	margin-right:-35px;
 	cursor:pointer;
 	z-index:5000;
 }
@@ -87,3 +91,85 @@
 	margin:5px;
 	display:inline-block;
 }
+
+#div_sec_principal_bottom{
+	display:block;	
+	text-align:center;
+}
+
+#ul_div_sec_principal_bottom{
+	list-style:none;
+	color:#333;	
+}
+
+#div_sec_principal_bottom li{
+	display:inline-block;
+	margin:5px;
+}
+
+#div_bottom_recientes{
+	margin-top:30px;	
+}
+
+#div_bottom_recientes ul{
+	height:340px;
+}
+
+#div_bottom_recientes li{
+	width:300px;
+	height:340px;	
+	text-decoration:none;	
+}
+
+#div_bottom_recientes a{
+	text-decoration:none;	
+}
+
+
+#div_bottom_recientes img{
+	width:280px;
+	height:190px;
+}
+
+#div_bottom_recientes li p{
+	position:relative;
+	top:-90px;
+	padding:0px 0px 15px 15px;
+	width:270px;
+	text-align:justify;
+}
+
+#div_bottom_recientes li h3{
+	position: relative;
+	top: -100px;
+	text-align: center;
+}
+
+.span_circulo_der{
+	margin-right:-5px;
+	background:#FFF; 
+	padding:0px 8px; 
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+
+.span_circulo_izq{
+	margin-left:-5px;
+	background:#FFF; 
+	padding:0px 8px; 
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.span_linea{
+	height:9px;
+	width:189px;
+	background:url('../images/divisor.png') no-repeat;
+	display:block;
+}
+
+#ul_div_sec_principal_bottom .izquierda{ background-position:left top;left:0;}
+#ul_div_sec_principal_bottom .derecha{ background-position:left bottom;bottom:0;}

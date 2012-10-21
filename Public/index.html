@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <meta charset=utf-8">
+      <meta charset="utf-8">
         <title>Inicio | GoTouch</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/css_index.css">
@@ -19,12 +19,13 @@
             </header>
             
             <nav id="nav_top">
+            	<img src="images/logo.png"/>
                 <ul>
-                    <li><a href="index.html">Inicio </a></li>
-                    <li><a href="news.html">Noticias</a></li>
-                    <li><a href="apps.html">Apps</a></li>
-                    <li><a href="aboutus.html">Sobre Nosotros</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
+                    <li class="nav_activa"><a href="index.html">INICIO </a></li>
+                    <li><a href="news.html">NOTICIAS</a></li>
+                    <li><a href="apps.html">APPS</a></li>
+                    <li><a href="aboutus.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
                 </ul>
             </nav>
             
@@ -42,40 +43,61 @@
                 </div>
                 
                 <div id="div_sec_principal_bottom">  
-                	<div id="slideshow_apps">
-                    	 <ul class="slides_apps">
-                            <li><img src="images/app1.png" width="105" height="105" alt="img1" /></li>
-                            <li><img src="images/app2.png" width="105" height="105" alt="img2" /></li>
-                            <li><img src="images/app3.png" width="105" height="105" alt="img3" /></li>
-                            <li><img src="images/app4.png" width="105" height="105" alt="img4" /></li>
-                    	</ul>
-                    </div>
-                    <iframe width="320" height="320" src="http://www.youtube.com/embed/ZyygOVlM6pM" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            
-            <footer id="footer_bottom">
-                <div id="div_contactos" > 
-                	<img src="images/phone.png"/><label id="label_telefono">8896-4751</label> 
-                	<a href="#"><img src="images/mail.png"/>gotouch@mail.com</a> 
-                	<a href="#"><img src="images/facebook.png"/>/gotouch.tec</a>
-                </div>
-                <br />
-                <br />
+                	<ul id="ul_div_sec_principal_bottom">
+                        <li><span class="span_linea izquierda"></span></li>
+                        <li><label> TRABAJOS RECIENTES </label></li>
+                        <li></span><span class="span_linea derecha"></span></li>
+                    </ul>
                 
-                <div class='horizontal' >
-                	<a href="#">Pol&iacuteticas y Privacidad</a> 
-					<span id='span_separador'> </span>
-                	<label>Programa GoTouch del Tecnol&oacutegico de Costa Rica 2012</label>
-                	<span id='span_separador'> </span>
-                	<a href="#" id="link_Admin">Admin<img src="images/settings.png"/></a>
-                </div>
-            </footer>
-
+                	<div id="div_bottom_recientes">
+                        <ul>
+                            <li>
+                            	<a href="#">
+                                <img src="images/foto1.jpg" />  
+                                <img src="images/texto1.png" style="margin-top:-3px; height:100px" /> 
+                                <h3> JungleTricks</h3>
+                                <p>Udi il ipis ditaspe rspitia doluptam nem ea as aliquis nulpa dit laccumq uatur?</p> 
+                            	</a>
+                            </li>
+                            <li>
+                            	<a href="#">
+                                <img src="images/foto2.jpg" />  
+                                <img src="images/texto2.png" style="margin-top:-3px; height:100px" /> 
+                                <h3> JungleTricks</h3>
+                                <p>Udi il ipis ditaspe rspitia doluptam nem ea as aliquis nulpa dit laccumq uatur?</p> 
+                            	</a>
+                            </li>
+                            <li>
+                            	<a href="#">
+                                <img src="images/foto3.jpg" />  
+                                <img src="images/texto3.png" style="margin-top:-3px; height:100px" /> 
+                                <h3> JungleTricks</h3>
+                                <p>Udi il ipis ditaspe rspitia doluptam nem ea as aliquis nulpa dit laccumq uatur?</p> 
+                            	</a>
+                            </li>
+                        </ul>
+                	</div>
+            	</div>
+            </div>
         </div>    
         
+        <footer id="footer_bottom">
+        	<ul id="ul_footer_bottom">
+                <li><span class="span_linea izquierda"></span></li>
+                <li><label>Programa GoTouch del Tecnol&oacutegico de Costa Rica 2012</label></li>
+                <li></span><span class="span_linea derecha"></span></li>
+            </ul>
+            
+            <ul id="footer_ul"> 
+                <li><img class="footer_img" src="images/Icono_teléfono.png"/>8896-4751</li>
+                <li><span class="span_circulo_footer"></span></li>
+                <li><a href="#"><img class="footer_img" src="images/icono_mail.png"/>gotouch@gmail.com</a></li> 
+                <li><span class="span_circulo_footer"></span></li>
+                <li><a href="#"><img class="footer_img" src="images/icono_facebook.png"/>/gotouch.tec</a></li>
+            </ul>
+        </footer>
         <!-- Se inicia el slider-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script src="js/script_slider.js"></script>
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="js/script_slider.js"></script>-->
     </body>
 </html>
