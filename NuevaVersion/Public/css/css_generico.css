@@ -49,17 +49,21 @@ header {
 	padding: 4px 13px 4px 13px;
 }
 
-#menu_principal li a:hover{
+#menu_principal li a:hover {
 	color: #94CB1E;
 }
 
-#menu_principal li .active{
+#menu_principal li .active {
 	background-color: #94CB1E;
+}
+
+#menu_principal li .active:hover {
+	background-color: #696969;
 }
 
 #content {
 	clear: both;
-	height: 400px;
+	padding-top: 60px;
 }
 
 footer {
