@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+	src: url(../fonts/OpenSans-Regular-webfont.ttf),
+		url(../fonts/OpenSans-Regular-webfont.eot),
+		url(../fonts/OpenSans-Regular-webfont.woff),
+		url(../fonts/OpenSans-Regular-webfont.svg);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(../images/fondo.png);
+	background-repeat: repeat;
+	font-family: 'OpenSansRegular', sans-serif;
+}
+
+#wrapper {
+	width: 800px;
+	margin:0px auto 0px auto;
+}
+
+header {
+	margin-top: 30px;
+}
+
+#div_logo {
+	float: left;
+}
+
+#menu_principal {
+	float: right;
+	display:inline-block;
+	margin-top: 47px;
+}
+
+#menu_principal li {
+	display: inline;
+	font-size:15px;
+}
+
+#menu_principal li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 4px 13px 4px 13px;
+}
+
+#menu_principal li a:hover{
+	color: #94CB1E;
+}
+
+#menu_principal li .active{
+	background-color: #94CB1E;
+}
+
+#content {
+	clear: both;
+	height: 400px;
+}
+
+footer {
+	height: 145px;
+	background-image: url(../images/footer.png);
+	background-repeat: repeat-x;
+	font-size:13px;
+	color: #FFF;
+}
+
+#div_tituloFooter {
+	text-align: center;
+}
+
+#div_tituloFooter * {
+	display: inline;
+	margin-top: 45px;
+}
+
+#div_tituloFooter p {
+	margin: 0 20px 0 20px;
+}
+
+#div_iconosFooter {
+	text-align: center;
+}
+
+#div_iconosFooter * {
+	display: inline;
+	margin-top: 25px;
+}
+
+.div_icono p span {
+	margin-left: 10px;
+}
+
+.div_separadorIconoFooter img {
+	margin: 0 32px 7px 30px;
+}
