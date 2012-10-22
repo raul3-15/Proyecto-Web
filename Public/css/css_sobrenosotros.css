@@ -6,6 +6,7 @@ h1{
 	margin-bottom:10px;
 }
 
+
 .img_borde{
 	background-color:#F5F5F5;
 	border:1px solid #FFFFFF;
@@ -25,17 +26,89 @@ h1{
 	margin-top:10px;	
 }
 
-.izquierda{
+
+
+#p_igt{
+/*	margin-left: 200px;
+	color:#F00; 
+	font-family:"MS Serif", "New York", serif;
+	font-size:15px;*/
+	color:#F00; 
+	margin-left:80px;
+	margin-top:20px;
 	float:left;
-	margin-right:30px;
 }
 
-.derecha{
-	float:right;
-	margin-left:30px;
+#imagen_igt{
+/*	margin-left: 200px;
+	color:#F00; 
+	font-family:"MS Serif", "New York", serif;
+	font-size:15px;*/
+	color:#F00; 
+	margin-left:80px;
+	margin-top:200px;
+	float:left;
 }
 
+#tabla_acercanosotros{
+	border:0;
+	width:245px;;
+	 height:245px;
+	 cellpadding:3;
+	 cellspacing:2;
+	 text-align:center;
+	 font:Tahoma, Geneva, sans-serif;
+	 font-size:30px;
+	 background:url(../images/Pagina_sobrenosotros/circulo_celeste.png);
+	}
+	
+#tabla_acercanosotrosec{
+	border:0;
+	width:245px;;
+	 height:245px;
+	 cellpadding:3;
+	 cellspacing:2;
+	 text-align:center;
+	 font:Tahoma, Geneva, sans-serif;
+	 font-size:30px;
+	 background:url(../images/Pagina_sobrenosotros/circulo_rojo.png);
+	}
+
+
+
+.div_iniciativa{
+	width:275px;;
+	 height:275px;
+	 display: -webkit-box;
+	-webkit-box-orient: vertical;
+	
+	}
+	
+.div_escuelacomputacion{
+	 float:center;
+	 width:275px;;
+	 height:275px;
+	 margin-left:350px;
+	 margin-top:100px;
+	 display: -webkit-box;
+	-webkit-box-orient: vertical;
+	
+	}
+#iniciativagt{
+	width:275px;;
+	 height:275px;
+	 color:#999;
+	 font-family:"Courier New", Courier, monospace;
+	 font-size:16px;
+
+	}
+	
 #div_miembros{
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 }
+
+#div_contactos{
+	margin-top:500px;
+	
+	}
