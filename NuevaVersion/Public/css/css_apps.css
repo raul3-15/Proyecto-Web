@@ -1,0 +1,123 @@
+
+#div_sliderMenuApps {
+	background-color: #CCF;
+	height: 100px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#div_sliderApp {
+	height: 300px;
+	width: 500px;
+	margin: 40px 0 0 0;
+	float: left;
+}
+
+#div_infoApp {
+	float: right;
+}
+
+#div_textoApp h1 {
+	color: #FFF;
+	font-weight: normal;
+	margin: 10px 0 10px 0;
+}
+
+#div_textoApp {
+	margin: 40px 0px 0 10px;
+	width: 280px;
+	color: #5E5E5E;
+	font-family: sans-serif;
+}
+
+/* ======================== */
+/* ESTILO SCROLL BAR JQUERY */
+/* ======================== */
+
+#div_textoApp .viewport { width: 260px; height: 180px; overflow: hidden; position: relative; }
+#div_textoApp .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#div_textoApp .scrollbar{ background: transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#div_textoApp .track { background: transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#div_textoApp .thumb { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#div_textoApp .thumb .end { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#div_textoApp .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+/* ======================================================================== */
+
+#div_tiendasDisponibles {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#div_comentariosApp {
+	clear: both;
+	margin-top: 50px;
+}
+
+#div_tituloComentarios {
+	/*text-align: center;*/
+}
+
+#div_tituloComentarios * {
+	display: inline;
+	margin-top: 45px;
+}
+
+#div_tituloComentarios h1 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0 15px 0 15px;
+}
+
+#div_formComentarios {
+	background-color: #61C3E0;
+	width: 340px;
+	height: 250px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#div_formComentarios input, #div_formComentarios textarea {
+	background-color: #91D6E9;
+	border: hidden;
+	color: #FFF;
+	font-size: 16px;
+	padding-left: 7px;
+	font-family: 'OpenSansRegular', sans-serif;
+}
+
+#txt_nombre {
+	margin-top: 20px;
+	height: 25px;
+	width: 300px;	
+}
+
+#txt_mail {
+	margin-top: 10px;
+	height: 25px;
+	width: 300px;
+}
+
+#area_mensaje {
+	margin-top: 10px;
+	height: 100px;
+	width: 300px;
+	max-height: 100px;
+}
+
+#div_formComentarios #div_Enviar {
+	margin: 10px 20px 0 0;
+	text-align: right
+}
+
+#div_formComentarios #btn_Enviar {
+	padding: 0px;
+	height: 25px;
+	width: 70px;
+}
+
+#div_formComentarios #btn_Enviar:hover {
+	background-color: #2595c5;
+}

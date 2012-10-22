@@ -71,7 +71,8 @@ footer {
 	background-image: url(../images/footer.png);
 	background-repeat: repeat-x;
 	font-size:13px;
-	color: #FFF;
+	color: #EAEAEA;
+	clear: both;
 }
 
 #div_tituloFooter {
