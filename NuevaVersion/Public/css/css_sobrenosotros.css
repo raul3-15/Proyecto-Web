@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	margin_top:10px;
+	margin-bottom:10px;
+	color:#333;
+	font-size:25px;
+}
+
+h2{
+	margin_top:10px;
+	margin-bottom:10px;
+	color:#999;
+	font-family:"Courier New", Courier, monospace;
+}
+
+
+
+.img_borde{
+	background-color:#F5F5F5;
+	border:1px solid #FFFFFF;
+	-moz-box-shadow:0 0 22px #CCC;
+	-webkit-box-shadow:0 0 22px #CCC;
+	box-shadow:0 0 22px #CCC;
+	max-height:200px;
+	max-width:200px;
+}
+
+.sec_principal p{
+	width:1000px;
+	text-align:justify;	
+}
+
+.sec_principal div{
+	margin-top:10px;	
+}
+
+
+
+#p_igt{
+/*	margin-left: 200px;
+	color:#F00; 
+	font-family:"MS Serif", "New York", serif;
+	font-size:15px;*/
+	color:#F00; 
+	margin-left:80px;
+	margin-top:20px;
+	float:left;
+}
+
+#imagen_igt{
+/*	margin-left: 200px;
+	color:#F00; 
+	font-family:"MS Serif", "New York", serif;
+	font-size:15px;*/
+	color:#F00; 
+	margin-left:80px;
+	margin-top:200px;
+	float:left;
+}
+
+#tabla_acercanosotros{
+	border:0;
+	width:245px;;
+	 height:245px;
+	 cellpadding:3;
+	 cellspacing:2;
+	 text-align:center;
+	 font:Tahoma, Geneva, sans-serif;
+	 font-size:30px;
+	 background:url(../images/Pagina_sobrenosotros/circulo_celeste.png);
+	 color:#FFF;
+	}
+	
+#tabla_acercanosotrosec{
+	border:0;
+	width:245px;;
+	 height:245px;
+	 cellpadding:3;
+	 cellspacing:2;
+	 text-align:center;
+	 font:Tahoma, Geneva, sans-serif;
+	 font-size:30px;
+	 background:url(../images/Pagina_sobrenosotros/circulo_rojo.png);
+	 color:#FFF;
+	}
+
+#tabla_acercanosotroscic{
+	border:0;
+	width:245px;;
+	 height:245px;
+	 cellpadding:3;
+	 cellspacing:2;
+	 text-align:center;
+	 font:Tahoma, Geneva, sans-serif;
+	 font-size:30px;
+	 background:url(../images/Pagina_sobrenosotros/circulo_verde.png);
+	color:#FFF;
+	}
+
+
+.div_iniciativa{
+	/*width:275px;;
+	 height:275px;
+	 display: -webkit-box;
+	-webkit-box-orient: vertical;*/
+	width:427px;
+	display: table-cell;
+	}
+	
+.div_escuelacomputacion{
+	/* float:center;
+	 width:275px;;
+	 height:275px;
+	 margin-left:350px;
+	 margin-top:100px;
+	 display: -webkit-box;
+	-webkit-box-orient: vertical;*/
+	width:427px;
+	display: table-cell;
+	}
+	
+.div_cic{
+	 /*float:right;
+	 width:20px;;
+	 height:20px;
+	 margin-left:350px;
+	 margin-top:100px;
+	 display: -webkit-box;
+	-webkit-box-orient: vertical;*/
+	width:427px;
+	display: table-cell;
+	}
+#iniciativagt{
+	width:275px;;
+	 height:275px;
+	 color:#999;
+	 font-family:"Courier New", Courier, monospace;
+	 font-size:16px;
+	  text-align:justify;
+
+	}
+	
+#div_miembros{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+#div_contactos{
+	margin-top:500px;
+	
+	}
+	
+
+#div_imagen{
+	 display:table-cell;
+	 width:280px;	
+	}
+
+.parrafos{
+	width:300px;
+	display:table-cell;
+	}
+	
+
+#parrafo1{
+	 color:#999;
+	 font-family:"Courier New", Courier, monospace;
+	 text-align:justify;
+	 width:280px;	 
+	 display:table-cell
+	}
+	
