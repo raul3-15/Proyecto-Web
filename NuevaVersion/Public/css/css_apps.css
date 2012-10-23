@@ -7,10 +7,13 @@
 	margin-left: auto;
 }
 
+#div_contentTop {
+	margin-top: 40px;
+	height: 330px;
+}
+
 #div_sliderApp {
-	height: 300px;
 	width: 500px;
-	margin: 40px 0 0 0;
 	float: left;
 }
 
@@ -25,7 +28,7 @@
 }
 
 #div_textoApp {
-	margin: 40px 0px 0 10px;
+	margin-left: 10px;
 	width: 280px;
 	color: #5E5E5E;
 	font-family: sans-serif;
@@ -51,24 +54,25 @@
 	text-align: center;
 }
 
-#div_comentariosApp {
+#div_contentBottom {
 	clear: both;
-	margin-top: 50px;
-}
-
-#div_tituloComentarios {
-	/*text-align: center;*/
-}
-
-#div_tituloComentarios * {
-	display: inline;
+	height: 380px;
 	margin-top: 45px;
 }
 
-#div_tituloComentarios h1 {
+#div_contentBottom h1 {
 	font-size: 22px;
 	font-weight: normal;
 	margin: 0 15px 0 15px;
+}
+
+#div_contentBottom #div_tituloComentarios *, #div_contentBottom #div_tituloDescargas * {
+	display: inline;
+}
+
+#div_comentariosApp {
+	float: left;
+	width: 400px;
 }
 
 #div_formComentarios {
@@ -109,7 +113,7 @@
 
 #div_formComentarios #div_Enviar {
 	margin: 10px 20px 0 0;
-	text-align: right
+	text-align: right;
 }
 
 #div_formComentarios #btn_Enviar {
@@ -120,4 +124,22 @@
 
 #div_formComentarios #btn_Enviar:hover {
 	background-color: #2595c5;
+}
+
+#ul_listaDescargas {
+	margin-top: 25px;
+}
+
+#ul_listaDescargas li {
+	list-style:none;
+	margin-top: 10px;
+}
+
+#ul_listaDescargas li a {
+	text-decoration: none;
+	color: #9539FF;
+}
+
+#ul_listaDescargas li a:visited {
+	color:#DF3B15;
 }

@@ -102,6 +102,15 @@ footer {
 	margin-left: 10px;
 }
 
+.div_icono p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.div_icono p a:visited {
+	color: #FFF;
+}
+
 .div_separadorIconoFooter img {
 	margin: 0 32px 7px 30px;
 }
