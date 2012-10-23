@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* Estilo del slideshow de inicio*/
+
+#slideshow{
+	background-color:#414141;
+	height:374px;
+	margin:0px auto 0;
+	position:relative;
+	width:920px;
+}
+
+#slideshow ul{
+	height:370px;
+	left:10px;
+	list-style:none outside none;
+	position:absolute;
+	top:10px;
+	width:780px;
+}
+
+#slideshow li{
+	position:absolute;
+	z-index:10;
+}
+
+#slideshow li img{
+	min-width:790px;	
+	min-height:355px;
+	max-width:790px;
+	max-height:355px;
+}
+
+
+#slideshow li iframe{
+	min-width:790px;	
+	min-height:355px;
+	max-width:790px;
+	max-height:355px;
+}
+
+#slideshow li:first-child{
+	display:block;
+	z-index:1000;
+}
+
+#slideshow .slideActive{
+	z-index:1000;
+}
+
+#slideshow .slideActive2{
+	z-index:1000;
+	display:block;
+	left:800px;
+	overflow:hidden;
+	width:100px;
+	opacity:0.2;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+}
+
+#slideshow canvas{
+	display:none;
+	position:absolute;
+	z-index:100;
+}
+
+#slideshow .flecha{
+	height:32px;
+	width:22px;
+	position:absolute;
+	background:url('../images/home/flechas.png') no-repeat;
+	top:50%;
+	margin-left:-35px;
+	margin-right:-35px;
+	cursor:pointer;
+	z-index:5000;
+}
+
+#slideshow .anterior{ background-position:left top;left:0;}
+#slideshow .anterior:hover{ background-position:left bottom;}
+
+#slideshow .siguiente{ background-position:right top;right:0;}
+#slideshow .siguiente:hover{ background-position:right bottom;}
+
+#div_sec_principal_bottom{
+	margin-top:20px;
+	display:block;	
+	text-align:center;
+}
+
+#ul_div_sec_principal_bottom{
+	list-style:none;
+	color:#333;	
+}
+
+#div_sec_principal_bottom li{
+	display:inline-block;
+	margin:5px;
+}
+
+#div_bottom_recientes{
+	margin-top:30px;
+}
+
+#div_bottom_recientes ul{
+	height:340px;
+}
+
+#div_bottom_recientes li{
+	width:300px;
+	height:340px;	
+	text-decoration:none;	
+}
+
+#div_bottom_recientes a{
+	text-decoration:none;	
+	color: #FFF;
+	font-size:13px;
+}
+
+
+#div_bottom_recientes img{
+	width:280px;
+	height:190px;
+}
+
+#div_bottom_recientes li p{
+	position:relative;
+	top:-90px;
+	padding:0px 0px 15px 15px;
+	width:270px;
+	text-align:justify;
+}
+
+#div_bottom_recientes li h3{
+	position: relative;
+	top: -100px;
+	text-align: center;
+}

@@ -20,12 +20,13 @@ body {
 }
 
 #wrapper {
-	width: 800px;
+	width: 1000px;
 	margin:0px auto 0px auto;
 }
 
 header {
 	margin-top: 30px;
+	font-weight:bold;
 }
 
 #div_logo {
