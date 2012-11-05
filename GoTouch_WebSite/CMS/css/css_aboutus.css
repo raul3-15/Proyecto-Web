@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+ h1 {
+	color: #FFF;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#div_formAgregarApp {
+	margin-bottom: 70px;
+}
+
+#div_form div {
+	margin-bottom: 8px;
+}
+
+#div_form div div {
+	float: left;
+	width: 250px;
+}
+
+#div_form #desc textarea {
+	height: 100px;
+	width: 300px;
+	font-size: 15px;
+	padding: 3px;
+	font-family: 'OpenSansRegular', sans-serif;
+}
+
+input {
+	padding: 2px;
+	font-size: 15px;
+	font-family: 'OpenSansRegular', sans-serif;
+	width:300px;
+}
+
+.file {
+	width: 320px;
+}
+
+#guardar {
+	margin-top: 25px;
+}
+
+#guardar input {
+	width: 100px;
+}
