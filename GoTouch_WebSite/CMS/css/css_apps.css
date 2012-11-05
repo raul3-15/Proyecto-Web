@@ -1,0 +1,78 @@
+
+#div_listaApps {
+	float: right;
+	padding: 15px;
+	font-family: sans-serif;
+	width: 135px;
+}
+
+#lista_appsActuales li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#lista_appsActuales li a {
+	text-decoration: none;
+	color: #DF3B15;
+}
+
+/* ======================== */
+/* ESTILO SCROLL BAR JQUERY */
+/* ======================== */
+
+#div_listaApps .viewport { width: 110px; height: 180px; overflow: hidden; position: relative; }
+#div_listaApps .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#div_listaApps .scrollbar{ background: transparent url(../../images/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#div_listaApps .track { background: transparent url(../../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#div_listaApps .thumb { background: transparent url(../../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#div_listaApps .thumb .end { background: transparent url(../../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#div_listaApps .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+/* ======================================================================== */
+
+#div_formAgregarApp h1 {
+	color: #FFF;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#div_formAgregarApp {
+	margin-bottom: 70px;
+}
+
+#div_form div {
+	margin-bottom: 8px;
+}
+
+#div_form div div {
+	float: left;
+	width: 250px;
+}
+
+#div_form #desc textarea {
+	height: 80px;
+	width: 250px;
+	font-size: 15px;
+	padding: 3px;
+	font-family: 'OpenSansRegular', sans-serif;
+}
+
+input {
+	padding: 2px;
+	font-size: 15px;
+	font-family: 'OpenSansRegular', sans-serif;
+}
+
+.file {
+	width: 320px;
+}
+
+#guardar {
+	margin-top: 25px;
+}
+
+#guardar input {
+	width: 100px;
+}

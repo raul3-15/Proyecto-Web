@@ -69,7 +69,7 @@
 	height:32px;
 	width:22px;
 	position:absolute;
-	background:url('../images/home/flechas.png') no-repeat;
+	background:url('../../images/home/flechas.png') no-repeat;
 	top:50%;
 	margin-left:-35px;
 	margin-right:-35px;

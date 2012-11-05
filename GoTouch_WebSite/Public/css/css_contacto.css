@@ -51,7 +51,7 @@ label {
 
 #contactform li .fieldbox input {
 /*	background:transparent url(../images/subfield.png) no-repeat top right; */
- 	background:url(../images/contacto/imagen_contacto.JPG);
+ 	background:url(../../images/contacto/imagen_contacto.JPG);
 	
 	height:30px; 
 	padding-top:5px;
@@ -78,7 +78,7 @@ label {
 
 #contactform li .msgbox textarea {
 /*	background:transparent url(../images/msgfield.png) no-repeat top right;*/
-	background: url(../images/contacto/imagen_contacto.JPG);
+	background: url(../../images/contacto/imagen_contacto.JPG);
 	height:250px;
 	padding-top:5px;
 	width:490px;	

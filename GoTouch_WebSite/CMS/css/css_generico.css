@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+	src: url(../../fonts/OpenSans-Regular-webfont.ttf),
+		url(../../fonts/OpenSans-Regular-webfont.eot),
+		url(../../fonts/OpenSans-Regular-webfont.woff),
+		url(../../fonts/OpenSans-Regular-webfont.svg);
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
 	margin: 0px;
@@ -7,7 +16,7 @@
 body {
 	background-color: #CCC;
 	background-repeat: repeat;
-	font-family: sans-serif;
+	font-family: 'OpenSansRegular', sans-serif;
 }
 
 #wrapper {
@@ -62,7 +71,7 @@ header h1 {
 
 footer {
 	height: 145px;
-	background-color:#66C;
+	background-color: #61C3E0;
 	clear: both;
 	text-align: center;
 }
