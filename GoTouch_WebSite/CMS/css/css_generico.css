@@ -13,8 +13,8 @@
 	padding: 0px;
 }
 
-body {	
-	background-image: url(../../images/fondo.png);
+body {
+	background-color: #CCC;
 	background-repeat: repeat;
 	font-family: 'OpenSansRegular', sans-serif;
 }
@@ -71,21 +71,23 @@ header h1 {
 
 footer {
 	height: 145px;
-	background-image: url(../../images/footer.png);
-	background-repeat: repeat-x;
-	font-size:13px;
-	color: #FFF;
+	background-color: #61C3E0;
 	clear: both;
 	text-align: center;
-	margin-top:30px;
 }
 
 footer div {
-	color: #FFF;
-	font-weight: bold;
-	padding-top:45px;
+	width: 800px;
+	height: 145px;
+	margin: 0 auto 0 auto;
+	padding-top: 30px;
 }
 
-footer a:visited {
-	color: #FFF; 
+footer div a {
+	color: #900;
+	font-weight: bold;
+}
+
+footer div a:visited {
+	color: #900; 
 }

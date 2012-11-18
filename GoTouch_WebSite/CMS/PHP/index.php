@@ -1,3 +1,7 @@
+<?php
+	include 'session.inc';
+	check_login();
+?>
 <!doctype html>
 <html>
 <head>
