@@ -49,7 +49,7 @@ xmlhttp.open("GET","agregarMiembro.php?nombre="+nombreMiembro+"&puestoMiembro="+
     <menu id="menu_principal">
       <li><a href="../../html/generico.html">INICIO</a></li>
       <li><a href="../../html/noticias.html">NOTICIAS</a></li>
-      <li><a href="../../html/apps.html">APPS</a></li>
+      <li><a href="../apps/apps.php">APPS</a></li>
       <li><a  class="active" href="../../html/aboutus.html">SOBRE NOSOTROS</a></li>
       <li><a href="../../html/contacto.html">CONTACTO</a></li>
     </menu>

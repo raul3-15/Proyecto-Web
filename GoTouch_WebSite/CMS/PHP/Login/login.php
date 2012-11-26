@@ -29,7 +29,7 @@
     <menu id="menu_principal">
       <li><a class="active" href="../../html/home.html">INICIO</a></li>
       <li><a href="../../html/noticias.html">NOTICIAS</a></li>
-      <li><a href="../../html/apps.html">APPS</a></li>
+      <li><a href="../apps/apps.php">APPS</a></li>
       <li><a href="../../html/sobreNosotros.html">SOBRE NOSOTROS</a></li>
       <li><a href="../../html/contacto.html">CONTACTO</a></li>
     </menu>
