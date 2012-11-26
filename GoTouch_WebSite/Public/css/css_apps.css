@@ -1,10 +1,14 @@
 
 #div_sliderMenuApps {
-	background-color: #CCF;
+	/*background-color: #CCF;*/
 	height: 100px;
 	width: 700px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+#btnCargarApp {
+	width: 70px;
 }
 
 #div_contentTop {

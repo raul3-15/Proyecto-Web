@@ -38,7 +38,7 @@
          <select id="listaApps" name="listaApps">
            <option value='nueva'>-- Nueva --</option>
            	<?php 
-				$consulta=mysql_query("select id_aplicacion, nombre from aplicacion");
+				$consulta=mysql_query("select id_aplicacion, nombre from aplicacion order by nombre");
 				while($filas=mysql_fetch_array($consulta))
 				{
 					$id=$filas['id_aplicacion'];
