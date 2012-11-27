@@ -21,10 +21,10 @@
   	<h1>CMS</h1>
     <menu id="menu_principal">
       <li><a href="../../html/login.html">INICIO</a></li>
-      <li><a href="">NOTICIAS</a></li>
-      <li><a class="active" href="../../html/apps.php">APPS</a></li>
+      <li><a href="../Noticias/noticias.php">NOTICIAS</a></li>
+      <li><a class="active" href="apps.php">APPS</a></li>
       <li><a href="../../html/aboutus.html">SOBRE NOSOTROS</a></li>
-      <li><a href="">CONTACTO</a></li>
+      <li><a href="#">CONTACTO</a></li>
     </menu>
 </header>
 
@@ -69,15 +69,12 @@
 
 </div>
 
-<footer>
-
-  <div>	
-  <a href="../../../Public/html/generico.html">SALIR</a>
-  </div>
-  
-</footer>
-
-
+	<footer>
+	  	<div>
+			<a href="../../../Public/html/home.html">SALIR</a>
+	    </div>
+    </footer>
+	
 </body>
 
 <?php mysql_close($con); ?>

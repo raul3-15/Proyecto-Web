@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../PHP/apps/conexion.php");
+include("../PHP/conexion.php");
 
 //Obtener datos ingresados
 if(isset($_POST['login']) && isset($_POST['contrasena'])) {
@@ -8,7 +8,7 @@ if(isset($_POST['login']) && isset($_POST['contrasena'])) {
 	$user = $_POST['login'];
 	$pass = $_POST['contrasena'];
 	
-	$query = @mysql_query("select login, password from usuarios where login = '{$user}' and password = '{$pass}'");
+	$query = @mysql_query("SELECT idUsuario FROM Usuario WHERE nombreUsuario = '{$user}' AND contrasena = '{$pass}'");
 	if($existe = @mysql_fetch_object($query)) {
 		$_SESSION['logged'] = 'yes';
 		echo '<script>window.location="../PHP/index.php"</script>';
