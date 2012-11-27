@@ -15,8 +15,8 @@
 <head>
 <meta charset="utf-8">
 <title>Inicio</title>
-<!--
-<link href="../../css/css_generico.css" rel="stylesheet" type="text/css">-->
+
+<link href="../../css/css_generico.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -37,7 +37,7 @@
 
 <div id="content"></div>
 	 <div id="div_form">
-      <h1> Registrarse </h1>
+      <h1> Autenticación </h1>
       	<form action="login.php" method="POST">
         	<div><div>Login</div><input type="text" id="login" name="login"></div>
         	<div><div>Contraseña </div><input type="password"  id="contrasena" name="contrasena"></div>

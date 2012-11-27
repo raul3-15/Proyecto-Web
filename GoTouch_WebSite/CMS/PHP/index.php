@@ -1,6 +1,10 @@
 <?php
-	include 'session.inc';
-	check_login();
+	//include 'session.inc';
+	//check_login();
+	session_start();
+	if($_SESSION['logged'] != 'yes') {
+		echo '<script>window.location="../html/login.html"</script>';
+	}
 ?>
 <!doctype html>
 <html>
@@ -35,6 +39,9 @@
 
   <div>	
   <a href="../../Public/html/generico.html">SALIR</a>
+  <form action="salir.php">
+  <input type="submit" value="Salir">
+  </form>
   </div>
   
 </footer>
