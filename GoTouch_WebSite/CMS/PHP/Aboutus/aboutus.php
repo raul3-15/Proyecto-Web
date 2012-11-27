@@ -2,8 +2,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Inicio</title>	
-<!--	<link href="../../css/css_generico.css" rel="stylesheet" type="text/css">
-	<link href="../../css/css_aboutus.css" rel="stylesheet" type="text/css">-->
+	<link href="../../css/css_generico.css" rel="stylesheet" type="text/css">
+	<link href="../../css/css_aboutus.css" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -63,11 +63,9 @@ xmlhttp.open("GET","agregarMiembro.php?nombre="+nombreMiembro+"&puestoMiembro="+
 <header>
   	<h1>CMS</h1>
     <menu id="menu_principal">
-      <li><a href="../../html/generico.html">INICIO</a></li>
-      <li><a href="../../html/noticias.html">NOTICIAS</a></li>
+      <li><a href="../noticias/noticias.php">NOTICIAS</a></li>
       <li><a href="../apps/apps.php">APPS</a></li>
-      <li><a  class="active" href="../../html/aboutus.html">SOBRE NOSOTROS</a></li>
-      <li><a href="../../html/contacto.html">CONTACTO</a></li>
+      <li><a  class="active" href="aboutus.php">SOBRE NOSOTROS</a></li>
     </menu>
 </header>
 

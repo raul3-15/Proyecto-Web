@@ -11,7 +11,7 @@ if(isset($_POST['login']) && isset($_POST['contrasena'])) {
 	$query = @mysql_query("SELECT idUsuario FROM Usuario WHERE nombreUsuario = '{$user}' AND contrasena = '{$pass}'");
 	if($existe = @mysql_fetch_object($query)) {
 		$_SESSION['logged'] = 'yes';
-		echo '<script>window.location="../PHP/index.php"</script>';
+		echo '<script>window.location="../PHP/noticias/noticias.php"</script>';
 	}
 	else {
 		echo '</br>El nombre de usuario o contrase&#241;a son incorrectos.';

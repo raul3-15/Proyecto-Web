@@ -20,11 +20,9 @@
 <header>
   	<h1>CMS</h1>
     <menu id="menu_principal">
-      <li><a href="../../html/login.html">INICIO</a></li>
-      <li><a href="../Noticias/noticias.php">NOTICIAS</a></li>
+      <li><a href="../noticias/noticias.php">NOTICIAS</a></li>
       <li><a class="active" href="apps.php">APPS</a></li>
-      <li><a href="../../html/aboutus.html">SOBRE NOSOTROS</a></li>
-      <li><a href="#">CONTACTO</a></li>
+      <li><a href="../Aboutus/aboutus.php">SOBRE NOSOTROS</a></li>
     </menu>
 </header>
 
