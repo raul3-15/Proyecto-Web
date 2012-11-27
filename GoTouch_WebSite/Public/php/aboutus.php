@@ -107,11 +107,10 @@
                     
                     <span class="flecha siguiente"></span>
                     <span class="flecha anterior"></span>
-    
- <?php
- 	echo "</select><input id='btnCargarApp' type='button' onClick='cargarApp()' value='Ver'>";
- ?>
-             </div>
+               <form action="aboutus_datoscontacto.php">
+					<input type="submit" value="Salir">
+				</form>
+         </div>
       </div>
 
 
