@@ -1,3 +1,11 @@
+<?php
+	//include 'session.inc';
+	//check_login();
+	session_start();
+	if($_SESSION['logged'] != 'yes') {
+		echo '<script>window.location="../html/login.html"</script>';
+	}
+?>
 <!doctype html>
 <html>
 <head>
@@ -69,7 +77,8 @@
 
 	<footer>
 	  	<div>
-			<a href="../../../Public/html/home.html">SALIR</a>
+				<form action="salir.php">
+					<input type="submit" value="Salir">
 	    </div>
     </footer>
 	

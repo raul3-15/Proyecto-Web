@@ -1,3 +1,11 @@
+<?php
+	//include 'session.inc';
+	//check_login();
+	session_start();
+	if($_SESSION['logged'] != 'yes') {
+		echo '<script>window.location="../html/login.html"</script>';
+	}
+?>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -79,7 +87,7 @@ xmlhttp.open("GET","agregarMiembro.php?nombre="+nombreMiembro+"&puestoMiembro="+
                  <textarea cols="" rows="" name="descripcionMiembro" id="descripcionMiembro"></textarea></div>
         		<div><div>Foto </div>
           		<input id="fotoMiembro" name="fotoMiembro" class="file" type="file" accept="image/x-png">
-        		<div id="guardar"><input name="" type="submit" value="Guardar" onclick="validarContenido();"></div>
+        		<div id="guardar"><input name="" type="submit" value="Guardar" onClick="validarContenido();"></div>
       		</form>
     	</div>
 </div>
@@ -87,7 +95,8 @@ xmlhttp.open("GET","agregarMiembro.php?nombre="+nombreMiembro+"&puestoMiembro="+
 <footer>
 
   <div>	
-	  <a href="../../../Public/html/generico.html">SALIR</a>
+	  	<form action="salir.php">
+					<input type="submit" value="Salir">
   </div>
   
 </footer>
